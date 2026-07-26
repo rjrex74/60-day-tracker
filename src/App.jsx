@@ -153,7 +153,7 @@ export default function App() {
               alt="DR Apps Logo" 
               className="w-24 h-24 mx-auto mb-4 object-contain rounded-2xl shadow-lg" 
             />
-            <h1 className="text-2xl font-black text-slate-800 tracking-tight">DR Apps</h1>
+            <h1 className="text-2xl font-black text-slate-800 tracking-tight">Dr Fitness App</h1>
             <p className="text-sm text-slate-500 mt-2">Log in to sync your progress</p>
           </div>
 
