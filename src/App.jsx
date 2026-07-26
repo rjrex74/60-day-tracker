@@ -151,7 +151,7 @@ export default function App() {
             <div className="w-16 h-16 bg-blue-900 text-white rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
               <Dumbbell size={32} />
             </div>
-            <h1 className="text-2xl font-black text-slate-800 tracking-tight">DR Apps</h1>
+            <h1 className="text-2xl font-black text-slate-800 tracking-tight">Dr Fitness Apps</h1>
             <p className="text-sm text-slate-500 mt-2">Log in to sync your progress</p>
           </div>
 
