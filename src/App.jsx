@@ -148,12 +148,15 @@ export default function App() {
       <div className="max-w-md mx-auto bg-slate-50 min-h-screen flex flex-col items-center justify-center p-6 text-slate-900">
         <div className="w-full bg-white p-8 rounded-3xl shadow-xl border border-slate-100">
           <div className="text-center mb-8">
-            <div className="w-16 h-16 bg-blue-900 text-white rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
-              <Dumbbell size={32} />
-            </div>
-            <h1 className="text-2xl font-black text-slate-800 tracking-tight">Dr Fitness App</h1>
+            <img 
+              src="/logo.png" 
+              alt="DR Apps Logo" 
+              className="w-24 h-24 mx-auto mb-4 object-contain rounded-2xl shadow-lg" 
+            />
+            <h1 className="text-2xl font-black text-slate-800 tracking-tight">DR Apps</h1>
             <p className="text-sm text-slate-500 mt-2">Log in to sync your progress</p>
           </div>
+
 
           <form onSubmit={handleAuth} className="space-y-4">
             <div>
